@@ -1,0 +1,280 @@
+header {
+    height: 250px;
+    background: url(../images/header.jpg);
+    background-size: 100% auto;
+}
+
+body {
+    color: #323232;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    color:#57565e;
+
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+::selection { background: #245d85; color: #fff; text-shadow: none; }
+
+h1 {
+    font-size: 30px;
+    margin-top: 5px;
+    color: #4E3035;
+    line-height: 105%;
+}
+
+h1 a {
+    color: #57565e;
+}
+
+h1 a:hover {
+    color: #d35400;
+}
+
+h1 a.site-author {
+    color: #ffffff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 1px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+a {
+    color: #d35400;
+    text-decoration: none;
+    border-bottom: 1px solid #d35400;
+}
+
+h1 a, h2 a, h3 a {
+    border-bottom: 0;
+}
+
+p {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+p span {
+    color: #000;
+    font-weight: bold;
+}
+
+hr {
+    width: 40%;
+}
+
+section {
+    max-width: 700px;
+    padding: 35px 35px;
+    margin: 20px auto;
+}
+
+img.align-right {
+    padding-left: 15px;
+    float: right;
+}
+
+img.align-center {
+    margin: 0 auto;
+    display: block;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+article img {
+    padding: 0;
+    margin: 0;
+}
+
+a.github {
+    position: fixed;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+.date {
+    margin-top: 5px;
+}
+
+.date:before {
+    content: "Published:";
+    margin-right: 10px;
+    font-weight: bold !important;
+}
+
+.detail div {
+    display: inline;
+    margin-right: 10px;
+    padding-left: 20px;
+    background-size: 14px;
+}
+
+.detail ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.detail ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.detail .time {
+    background: url('../images/glyphicons_054_clock.png') no-repeat 0 0;
+    background-position: 0 1px;
+}
+
+.detail .category {
+    background: url('../images/glyphicons_049_star.png') no-repeat 0 0;
+    background-position: 0 1px;
+}
+
+.detail .tags {
+    background: url('../images/glyphicons_065_tag.png') no-repeat 0 0;
+    background-position: 0 1px;
+}
+
+body#page_404 #sidebar, body#page_403 #sidebar {
+    display: none;
+}
+
+body#page_50x #sidebar {
+    margin-left: 850px;
+}
+
+body#page_403 section, body#page_404 section, body#page_50x section {
+    width: 750px;
+}
+
+@media screen and (max-width: 750px) {
+    section {
+        margin-top: 0px;
+    }
+
+    .github {
+        display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+    header {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        text-align: center;
+    }
+
+    section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        height: 140px;
+    }
+}
+
+article {
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+ul.tags {
+    margin-top: 35px;
+    list-style: none;
+    padding: 0;
+}
+
+ul.tags:before {
+    content: "Tags:";
+    margin-right: 10px;
+    font-weight: bold !important;
+}
+
+ul.tags li {
+    display: inline-block;
+}
+
+ul.tags li:before {
+    display: none;
+}
+
+ul.tags li a {
+    background: #f2f2f2;
+    padding: 3px 5px 3px 5px;
+    color: #A4A4A4;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 4px 10px;
+}
+
+ul.tags li a:hover {
+    background: #d35400;
+    color: #fff;
+    border: none;
+}
+
+.comments {
+    margin-top: 100px;
+}
+
+blockquote {
+    border-left: 4px solid #EEEEEE;
+}
+
+blockquote>p {
+    padding-left: 25px;
+    font-style: italic;
+}
+
+code {
+    background-color: #EEEEEE;
+    font-size: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+code:hover {
+    background-color: #F5F5F5;
+}
+
+pre {
+    font-size: 15px;
+}
